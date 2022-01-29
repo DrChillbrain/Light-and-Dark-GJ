@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_ground",
-    "path": "sprites/spr_ground/spr_ground.yy",
+    "name": "spr_darkPlatform",
+    "path": "sprites/spr_darkPlatform/spr_darkPlatform.yy",
   },
   "solid": false,
   "visible": true,

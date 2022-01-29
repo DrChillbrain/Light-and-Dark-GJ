@@ -5,3 +5,6 @@ h_speed = 0;
 v_speed = 0;
 jumpspeed = 10;
 movespeed = 4;
+depth = 50;
+
+show_debug_message("uIUNUI");

@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 // Checking for inputs
+
 key_right = keyboard_check(ord("D"));
 key_left = keyboard_check(ord("A"));
 key_jump = keyboard_check_pressed(ord("W"));
@@ -34,3 +35,6 @@ while (!collision_rectangle(x+sign(h_speed),y,x+sign(h_speed)+64,y+96,obj_terrai
 // Move the character
 x += h_speed;
 y += v_speed;
+
+//show_debug_message(x);
+//show_debug_message(y);
