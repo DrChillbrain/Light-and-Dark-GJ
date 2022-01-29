@@ -1,6 +1,6 @@
 //Get inputs (1 = pressed, 0 = not pressed)
-key_right = keyboard_check(vk_right);
-key_left = keyboard_check(vk_left);
+key_right = keyboard_check(ord("D"));
+key_left = keyboard_check(ord("A"));
 key_jump = keyboard_check(vk_space);
 key_jump_held = keyboard_check(ord(vk_space));
 

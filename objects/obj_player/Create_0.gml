@@ -7,6 +7,6 @@ hsp_walk = 6; //walk speed
 vsp_jump = -8; //jump speed
 frametimer = 0;
 playerdirection = 0;
-depth = 50;
+depth = -50;
 
-show_debug_message("uIUNUI");
+//show_debug_message("uIUNUI");
