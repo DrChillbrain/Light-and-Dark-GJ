@@ -58,3 +58,5 @@ if (place_meeting(x,y+vsp,obj_terrain))
     vsp = 0;
 }
 y = y + vsp;
+lastx = x;
+lasty = y;
