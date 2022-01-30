@@ -8,3 +8,7 @@ backgroundCooldown = false;
 globalvar isDark;
 
 isDark = true;
+
+inTransitionToLight = false;
+
+inTransitionToDark = false;
