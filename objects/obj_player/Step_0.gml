@@ -4,6 +4,13 @@ key_left = keyboard_check(ord("A"));
 key_jump = keyboard_check(vk_space);
 key_jump_held = keyboard_check(ord(vk_space));
 
+//Checks to make sure player doesn't leave room 
+if(room_width < x || x < 0 || room_height < y || y < 0)
+{
+	instance_destroy(id,true);
+	show_debug_message("dead");
+}
+
 //Work out where to move horizontally
 hsp = (key_right - key_left) * hsp_walk;
 
