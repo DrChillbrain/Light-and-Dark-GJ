@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_darkPlatform",
-    "path": "sprites/spr_darkPlatform/spr_darkPlatform.yy",
+    "name": "Pixilart_Sprite_Sheet_11316",
+    "path": "sprites/Pixilart_Sprite_Sheet_11316/Pixilart_Sprite_Sheet_11316.yy",
   },
   "solid": false,
   "visible": true,

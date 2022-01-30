@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Pixilart_Sprite_Sheet_1",
-    "path": "sprites/Pixilart_Sprite_Sheet_1/Pixilart_Sprite_Sheet_1.yy",
+    "name": "spr_star",
+    "path": "sprites/spr_star/spr_star.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,7 +20,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_terrain",
+  "name": "obj_star",
   "tags": [],
   "resourceType": "GMObject",
 }
