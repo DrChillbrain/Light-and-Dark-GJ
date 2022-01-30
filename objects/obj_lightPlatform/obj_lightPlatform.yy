@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_lightPlatform",
-    "path": "sprites/spr_lightPlatform/spr_lightPlatform.yy",
+    "name": "Pixilart_Sprite_Sheet_1131617",
+    "path": "sprites/Pixilart_Sprite_Sheet_1131617/Pixilart_Sprite_Sheet_1131617.yy",
   },
   "solid": false,
   "visible": true,

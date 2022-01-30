@@ -23,3 +23,13 @@ if(isDark && !terrainDeleted)
 	terrainSpawned = false;
 	terrainDeleted = true;
 }
+
+//Change to more detailed sprite when visible, and single color sprite when invisible
+if(isDark)
+{
+	image_index = 0;
+}
+else
+{
+	image_index = 1;
+}
