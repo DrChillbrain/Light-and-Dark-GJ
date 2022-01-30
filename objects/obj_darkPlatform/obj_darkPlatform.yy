@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_terrain",
-    "path": "sprites/spr_terrain/spr_terrain.yy",
+    "name": "spr_darkPlatform",
+    "path": "sprites/spr_darkPlatform/spr_darkPlatform.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,7 +20,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_terrain",
+  "name": "obj_darkPlatform",
   "tags": [],
   "resourceType": "GMObject",
 }
