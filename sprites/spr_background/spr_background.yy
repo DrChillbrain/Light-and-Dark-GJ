@@ -62,7 +62,7 @@
     "spriteId": {"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 22.0,
+    "playbackSpeed": 10.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
