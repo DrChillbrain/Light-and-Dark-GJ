@@ -53,7 +53,8 @@ if(keyboard_check(ord("T")) && !backgroundCooldown)
 		//make it light
 		image_speed = 1;
 		inTransitionToLight = true;
-		isDark = false;
+		
+		audio_play_sound(sfx_swap, 1, false);
 	}
 	else
 	{
@@ -61,24 +62,31 @@ if(keyboard_check(ord("T")) && !backgroundCooldown)
 		//make it dark
 		image_speed = -1;
 		inTransitionToDark = true;
-		isDark = true;
+		
+		audio_play_sound(sfx_swap, 1, false);
 	}
 	backgroundCooldown = true;
 	alarm_set(0, 120);
 }
 
-if(inTransitionToLight && image_index == 4)
+if(inTransitionToLight && image_index >= 6)
 {
+	image_index = 5;
 	show_debug_message("reached light background");
+	show_debug_message(image_index);
 	image_speed = 0;
 	inTransitionToLight = false;
+	isDark = false;
 }
 
-if(inTransitionToDark && image_index == 0)
+if(inTransitionToDark && (image_index == 0 || image_index > 7))
 {
+	image_index = 0;
 	show_debug_message("reached dark background");
+	show_debug_message(image_index);
 	image_speed = 0;
 	inTransitionToDark = false;
+	isDark = true;
 }
 
 

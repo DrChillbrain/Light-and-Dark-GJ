@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sfx_button","path":"sounds/sfx_button/sfx_button.yy",},"order":4,},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"start_spr","path":"sprites/start_spr/start_spr.yy",},"order":0,},
@@ -8,7 +9,9 @@
     {"id":{"name":"obj_lightPlatform","path":"objects/obj_lightPlatform/obj_lightPlatform.yy",},"order":4,},
     {"id":{"name":"obj_terrain","path":"objects/obj_terrain/obj_terrain.yy",},"order":1,},
     {"id":{"name":"obj_darkPlatform","path":"objects/obj_darkPlatform/obj_darkPlatform.yy",},"order":3,},
+    {"id":{"name":"sfx_jump","path":"sounds/sfx_jump/sfx_jump.yy",},"order":1,},
     {"id":{"name":"victory_obj","path":"objects/victory_obj/victory_obj.yy",},"order":4,},
+    {"id":{"name":"sfx_levelcomplete","path":"sounds/sfx_levelcomplete/sfx_levelcomplete.yy",},"order":5,},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":2,},
     {"id":{"name":"spr_darkPlatform","path":"sprites/spr_darkPlatform/spr_darkPlatform.yy",},"order":3,},
     {"id":{"name":"next_obj","path":"objects/next_obj/next_obj.yy",},"order":5,},
@@ -20,7 +23,10 @@
     {"id":{"name":"obj_Background","path":"objects/obj_Background/obj_Background.yy",},"order":2,},
     {"id":{"name":"quit_obj","path":"objects/quit_obj/quit_obj.yy",},"order":1,},
     {"id":{"name":"door_obj","path":"objects/door_obj/door_obj.yy",},"order":6,},
+    {"id":{"name":"sfx_swap","path":"sounds/sfx_swap/sfx_swap.yy",},"order":2,},
+    {"id":{"name":"sfx_dead","path":"sounds/sfx_dead/sfx_dead.yy",},"order":3,},
     {"id":{"name":"door_spr","path":"sprites/door_spr/door_spr.yy",},"order":8,},
+    {"id":{"name":"bgm","path":"sounds/bgm/bgm.yy",},"order":0,},
     {"id":{"name":"death_spr","path":"sprites/death_spr/death_spr.yy",},"order":1,},
     {"id":{"name":"death_obj","path":"objects/death_obj/death_obj.yy",},"order":2,},
     {"id":{"name":"Level1_rm","path":"rooms/Level1_rm/Level1_rm.yy",},"order":0,},
