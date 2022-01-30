@@ -23,3 +23,12 @@ if(!isDark && !terrainDeleted)
 	terrainSpawned = false;
 	terrainDeleted = true;
 }
+
+if(isDark)
+{
+	image_index = 1;
+}
+else
+{
+	image_index = 0;
+}

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_terrain",
-    "path": "sprites/spr_terrain/spr_terrain.yy",
+    "name": "Pixilart_Sprite_Sheet_1",
+    "path": "sprites/Pixilart_Sprite_Sheet_1/Pixilart_Sprite_Sheet_1.yy",
   },
   "solid": false,
   "visible": true,
