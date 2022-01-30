@@ -26,6 +26,7 @@
     {"id":{"name":"obj_Background","path":"objects/obj_Background/obj_Background.yy",},"order":2,},
     {"id":{"name":"quit_obj","path":"objects/quit_obj/quit_obj.yy",},"order":1,},
     {"id":{"name":"door_obj","path":"objects/door_obj/door_obj.yy",},"order":6,},
+    {"id":{"name":"Level4_rm","path":"rooms/Level4_rm/Level4_rm.yy",},"order":4,},
     {"id":{"name":"sfx_swap","path":"sounds/sfx_swap/sfx_swap.yy",},"order":2,},
     {"id":{"name":"sfx_dead","path":"sounds/sfx_dead/sfx_dead.yy",},"order":3,},
     {"id":{"name":"door_spr","path":"sprites/door_spr/door_spr.yy",},"order":8,},
@@ -50,6 +51,7 @@
     {"roomId":{"name":"Level1_rm","path":"rooms/Level1_rm/Level1_rm.yy",},},
     {"roomId":{"name":"Level2_rm","path":"rooms/Level2_rm/Level2_rm.yy",},},
     {"roomId":{"name":"Level3_rm","path":"rooms/Level3_rm/Level3_rm.yy",},},
+    {"roomId":{"name":"Level4_rm","path":"rooms/Level4_rm/Level4_rm.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
