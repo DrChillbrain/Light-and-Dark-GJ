@@ -66,7 +66,7 @@ if(keyboard_check(ord("T")) && !backgroundCooldown)
 		audio_play_sound(sfx_swap, 1, false);
 	}
 	backgroundCooldown = true;
-	alarm_set(0, 120);
+	alarm_set(0, 60);
 }
 
 if(inTransitionToLight && image_index >= 6)
