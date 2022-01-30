@@ -28,7 +28,8 @@ if(isDark)
 {
 	image_index = 0;
 }
-else if(obj_Background.inTransitionToLight || !isDark)
+
+if(!isDark || obj_Background.inTransitionToLight)
 {
 	image_index = 1;
 }
