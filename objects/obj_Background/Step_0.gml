@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //Change background
-if(keyboard_check(ord("T")) && !backgroundCooldown)
+if(keyboard_check(ord("X")) && !backgroundCooldown)
 {
 	/*
 	//If is dark, make it light
