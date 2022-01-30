@@ -54,6 +54,7 @@ if(keyboard_check(ord("T")) && !backgroundCooldown)
 		image_speed = 1;
 		inTransitionToLight = true;
 		isDark = false;
+		audio_play_sound(sfx_swap, 1, false);
 	}
 	else
 	{
@@ -62,6 +63,7 @@ if(keyboard_check(ord("T")) && !backgroundCooldown)
 		image_speed = -1;
 		inTransitionToDark = true;
 		isDark = true;
+		audio_play_sound(sfx_swap, 1, false);
 	}
 	backgroundCooldown = true;
 	alarm_set(0, 120);

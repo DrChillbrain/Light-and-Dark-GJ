@@ -29,6 +29,7 @@ if (vsp<0) and (!key_jump_held) {
 //Work out if we should jump
 if (place_meeting(x,y+1,obj_terrain)) and (key_jump)
 {
+	audio_play_sound(sfx_jump, 2, false);
     vsp = vsp_jump; 
 }
 
