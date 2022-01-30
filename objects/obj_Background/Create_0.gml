@@ -14,4 +14,5 @@ inTransitionToLight = false;
 inTransitionToDark = false;
 
 audio_stop_sound(bgm);
+audio_stop_sound(sfx_dead);
 audio_play_sound(bgm, 1, true);
