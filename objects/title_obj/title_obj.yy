@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Pixilart_Sprite_Sheet_1",
-    "path": "sprites/Pixilart_Sprite_Sheet_1/Pixilart_Sprite_Sheet_1.yy",
+    "name": "title_spr",
+    "path": "sprites/title_spr/title_spr.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "UI Buttons",
+    "path": "folders/Objects/UI Buttons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_terrain",
+  "name": "title_obj",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -23,3 +23,16 @@ if(!isDark && !terrainDeleted)
 	terrainSpawned = false;
 	terrainDeleted = true;
 }
+
+
+if(!isDark)
+{
+	image_index = 0;
+}
+
+if(isDark || obj_Background.inTransitionToDark)
+{
+	image_index = 1;
+}
+
+

@@ -1,8 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-terrainSpawned = false;
-terrainDeleted = false;
-image_speed = 0;
-
-image_speed = 0;
+room_goto(Menu_rm);
