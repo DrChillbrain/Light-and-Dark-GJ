@@ -23,7 +23,7 @@ if(keyboard_check(ord("X")) && !backgroundCooldown)
 		audio_play_sound(sfx_swap, 1, false);
 	}
 	backgroundCooldown = true;
-	alarm_set(0, 60);
+	alarm_set(0, 40);
 }
 
 if(inTransitionToLight && image_index >= 6)
