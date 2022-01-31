@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"enemy_obj","path":"objects/enemy_obj/enemy_obj.yy",},"order":7,},
     {"id":{"name":"sfx_button","path":"sounds/sfx_button/sfx_button.yy",},"order":4,},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
@@ -9,7 +10,7 @@
     {"id":{"name":"obj_particle","path":"objects/obj_particle/obj_particle.yy",},"order":8,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
     {"id":{"name":"start_obj","path":"objects/start_obj/start_obj.yy",},"order":0,},
-    {"id":{"name":"Pixilart_Sprite_Sheet_1","path":"sprites/Pixilart_Sprite_Sheet_1/Pixilart_Sprite_Sheet_1.yy",},"order":10,},
+
     {"id":{"name":"obj_lightPlatform","path":"objects/obj_lightPlatform/obj_lightPlatform.yy",},"order":4,},
     {"id":{"name":"Level3_rm","path":"rooms/Level3_rm/Level3_rm.yy",},"order":3,},
     {"id":{"name":"obj_terrain","path":"objects/obj_terrain/obj_terrain.yy",},"order":1,},
