@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //Change background
-if(keyboard_check(ord("X")) && !backgroundCooldown)
+if((keyboard_check(ord("X")) or global.swaptimer = 120) && !backgroundCooldown)
 {
 	if(image_index == 0)
 	{
