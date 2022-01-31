@@ -34,3 +34,27 @@ if(inTransitionToDark && (image_index == 0 || image_index > 7))
 	image_speed = 0;
 	inTransitionToDark = false;
 }
+
+if(!isDark)
+{
+	if(movingRight)
+	{
+		hspeed = speedE; 
+		if(x > startingX+range)
+		{
+			movingRight = false;	
+		}
+	}
+	else
+	{
+		hspeed = -speedE;
+		if(x < startingX-range)
+		{
+			movingRight = true;	
+		}
+	}
+}
+else
+{
+	hspeed = 0;
+}
