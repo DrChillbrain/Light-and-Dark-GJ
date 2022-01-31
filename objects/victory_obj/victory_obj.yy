@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "death_spr",
-    "path": "sprites/death_spr/death_spr.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
