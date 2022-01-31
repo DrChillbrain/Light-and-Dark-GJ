@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-//Change background
-if(keyboard_check(ord("X")) && !backgroundCooldown)
+if(keyboard_check(ord("X")) && !cooldown)
 {
 	if(image_index == 0)
 	{
@@ -10,8 +8,6 @@ if(keyboard_check(ord("X")) && !backgroundCooldown)
 		//make it light
 		image_speed = 1;
 		inTransitionToLight = true;
-		
-		audio_play_sound(sfx_swap, 1, false);
 	}
 	else
 	{
@@ -19,31 +15,22 @@ if(keyboard_check(ord("X")) && !backgroundCooldown)
 		//make it dark
 		image_speed = -1;
 		inTransitionToDark = true;
-		
-		audio_play_sound(sfx_swap, 1, false);
 	}
-	backgroundCooldown = true;
-	alarm_set(0, 60);
+	
+	cooldown = true;
+	alarm_set(0,60);
 }
 
 if(inTransitionToLight && image_index >= 6)
 {
 	image_index = 5;
-	show_debug_message("reached light background");
-	show_debug_message(image_index);
 	image_speed = 0;
 	inTransitionToLight = false;
-	isDark = false;
 }
 
 if(inTransitionToDark && (image_index == 0 || image_index > 7))
 {
 	image_index = 0;
-	show_debug_message("reached dark background");
-	show_debug_message(image_index);
 	image_speed = 0;
 	inTransitionToDark = false;
-	isDark = true;
 }
-
-
