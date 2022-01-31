@@ -15,7 +15,3 @@ inTransitionToLight = false;
 inTransitionToDark = false;
 
 movingRight = true; 
-
-terrainSpawned = false;
-
-terrainDeleted = false;
