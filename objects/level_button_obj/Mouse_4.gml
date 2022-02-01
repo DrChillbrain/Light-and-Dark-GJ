@@ -1,4 +1,4 @@
-if(true)
+if(available)
 {
 	currentLevel = levelNumber;
 	audio_play_sound(sfx_button, 2, false);
