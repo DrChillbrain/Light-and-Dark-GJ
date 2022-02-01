@@ -3,7 +3,8 @@ image_speed = 0;
 image_index = 2;
 
 levelNumber = 0; 
-available = true;
+available = false;
+offset = -30;
 
 
 alarm_set(0, 1);
