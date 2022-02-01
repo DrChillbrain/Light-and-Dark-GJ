@@ -1,8 +1,10 @@
 {
   "resources": [
+    {"id":{"name":"lazer_obj","path":"objects/lazer_obj/lazer_obj.yy",},"order":22,},
     {"id":{"name":"Level4_rm","path":"rooms/Level4_rm/Level4_rm.yy",},"order":13,},
     {"id":{"name":"Level7_rm","path":"rooms/Level7_rm/Level7_rm.yy",},"order":16,},
     {"id":{"name":"sfx_button","path":"sounds/sfx_button/sfx_button.yy",},"order":4,},
+    {"id":{"name":"laser_spr","path":"sprites/laser_spr/laser_spr.yy",},"order":22,},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":0,},
     {"id":{"name":"Level0_rm","path":"rooms/Level0_rm/Level0_rm.yy",},"order":12,},
     {"id":{"name":"moving_enemy_obj","path":"objects/moving_enemy_obj/moving_enemy_obj.yy",},"order":10,},
@@ -19,7 +21,9 @@
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
     {"id":{"name":"start_obj","path":"objects/start_obj/start_obj.yy",},"order":0,},
     {"id":{"name":"enemy_solid_spr","path":"sprites/enemy_solid_spr/enemy_solid_spr.yy",},"order":15,},
+    {"id":{"name":"lazerVert_obj","path":"objects/lazerVert_obj/lazerVert_obj.yy",},"order":23,},
     {"id":{"name":"enemy_spr","path":"sprites/enemy_spr/enemy_spr.yy",},"order":13,},
+    {"id":{"name":"laser2_spr","path":"sprites/laser2_spr/laser2_spr.yy",},"order":23,},
     {"id":{"name":"Pixilart_Sprite_Sheet_1","path":"sprites/Pixilart_Sprite_Sheet_1/Pixilart_Sprite_Sheet_1.yy",},"order":10,},
     {"id":{"name":"obj_lightPlatform","path":"objects/obj_lightPlatform/obj_lightPlatform.yy",},"order":4,},
     {"id":{"name":"Level2_rm","path":"rooms/Level2_rm/Level2_rm.yy",},"order":3,},
@@ -54,6 +58,7 @@
     {"id":{"name":"obj_swaptimer","path":"objects/obj_swaptimer/obj_swaptimer.yy",},"order":16,},
     {"id":{"name":"enemy_terrain","path":"objects/enemy_terrain/enemy_terrain.yy",},"order":11,},
     {"id":{"name":"Level6_rm","path":"rooms/Level6_rm/Level6_rm.yy",},"order":15,},
+    {"id":{"name":"level4contr_obj","path":"objects/level4contr_obj/level4contr_obj.yy",},"order":21,},
     {"id":{"name":"title_spr","path":"sprites/title_spr/title_spr.yy",},"order":11,},
     {"id":{"name":"wall_spr","path":"sprites/wall_spr/wall_spr.yy",},"order":17,},
     {"id":{"name":"obj_wallTerrain","path":"objects/obj_wallTerrain/obj_wallTerrain.yy",},"order":14,},
