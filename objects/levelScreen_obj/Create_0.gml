@@ -3,6 +3,7 @@
 heightOne = room_height/3;
 heightTwo = room_height- room_height/3;
 j = 0; 
+
 for(i = 0; i < 10; i++)
 {
 	if(i<=4)

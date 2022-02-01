@@ -5,6 +5,6 @@ one.movingRight = false;
 one.speedE = 2;
 one.range = 290;
 
-two = instance_create_layer(800 ,630,"Instances",moving_enemy_obj);
-two.speedE = 2;
-two.range = 290;
+two = instance_create_layer(630 ,640,"Instances",moving_enemy_obj);
+two.speedE = 3;
+two.range = 350;

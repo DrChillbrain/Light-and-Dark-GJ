@@ -59,7 +59,7 @@ if(inTransitionToDark && (image_index == 0 || image_index > 7))
 	inTransitionToDark = false;
 }
 
-if(!isDark)
+if(!isDark && !inTransitionToDark)
 {
 	if(movingRight)
 	{
