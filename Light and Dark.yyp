@@ -74,6 +74,7 @@
     {"id":{"name":"level7contr_obj","path":"objects/level7contr_obj/level7contr_obj.yy",},"order":24,},
     {"id":{"name":"sfx_dead","path":"sounds/sfx_dead/sfx_dead.yy",},"order":3,},
     {"id":{"name":"door_spr","path":"sprites/door_spr/door_spr.yy",},"order":7,},
+    {"id":{"name":"sfx_heaven","path":"sounds/sfx_heaven/sfx_heaven.yy",},"order":6,},
     {"id":{"name":"enemy_obj","path":"objects/enemy_obj/enemy_obj.yy",},"order":9,},
     {"id":{"name":"bgm","path":"sounds/bgm/bgm.yy",},"order":0,},
     {"id":{"name":"enemy_solid_obj","path":"objects/enemy_solid_obj/enemy_solid_obj.yy",},"order":12,},
