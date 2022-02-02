@@ -34,5 +34,35 @@ if(available)
 		case 9: 
 			room_goto(Level9_rm);
 			break;
+		case 10:
+			room_goto(Level10_rm);
+			break;
+		case 11: 
+			room_goto(Level11_rm);
+			break;
+		case 12: 
+			room_goto(Level12_rm);
+			break;
+		case 13: 
+			room_goto(Level13_rm);
+			break;
+		case 14: 
+			room_goto(Level14_rm);
+			break;
+		case 15: 
+			room_goto(Level15_rm);
+			break;
+		case 16: 
+			room_goto(Level16_rm);
+			break;
+		case 17: 
+			room_goto(Level17_rm);
+			break;
+		case 18: 
+			room_goto(Level18_rm);
+			break;
+		case 19: 
+			room_goto(Level19_rm);
+			break;
 	}
 }

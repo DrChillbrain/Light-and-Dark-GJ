@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(keyboard_check(ord("X")) && !cooldown)
+if(keyboard_check(ord("X")) && !cooldown && !playerDead)
 {
 	if(image_index == 0)
 	{

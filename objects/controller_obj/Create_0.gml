@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 globalvar levelClear;
-levelClear = 0; 
+levelClear = 9; 
 globalvar currentLevel;
 currentLevel= 0; 
 globalvar god;
