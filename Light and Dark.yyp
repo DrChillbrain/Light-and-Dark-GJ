@@ -48,6 +48,7 @@
     {"id":{"name":"spr_darkPlatform","path":"sprites/spr_darkPlatform/spr_darkPlatform.yy",},"order":3,},
     {"id":{"name":"level_button_obj","path":"objects/level_button_obj/level_button_obj.yy",},"order":17,},
     {"id":{"name":"next_obj","path":"objects/next_obj/next_obj.yy",},"order":5,},
+    {"id":{"name":"numbers_spr","path":"sprites/numbers_spr/numbers_spr.yy",},"order":24,},
     {"id":{"name":"retry_obj","path":"objects/retry_obj/retry_obj.yy",},"order":3,},
     {"id":{"name":"spr_terrain","path":"sprites/spr_terrain/spr_terrain.yy",},"order":5,},
     {"id":{"name":"Menu_rm","path":"rooms/Menu_rm/Menu_rm.yy",},"order":1,},
@@ -81,7 +82,6 @@
     {"id":{"name":"death_spr","path":"sprites/death_spr/death_spr.yy",},"order":1,},
     {"id":{"name":"spr_swaptimer","path":"sprites/spr_swaptimer/spr_swaptimer.yy",},"order":19,},
     {"id":{"name":"death_obj","path":"objects/death_obj/death_obj.yy",},"order":2,},
-    {"id":{"name":"numbers_spr","path":"sprites/numbers_spr/numbers_spr.yy",},"order":19,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},

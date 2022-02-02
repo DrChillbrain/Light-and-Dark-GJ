@@ -9,4 +9,4 @@ frametimer = 0;
 depth = -50;
 playerdirection = 1;
 
-show_debug_message(room);
+show_debug_message(sprite_height);
