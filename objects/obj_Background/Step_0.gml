@@ -2,8 +2,10 @@
 // You can write your code in this editor
 
 //Change background
-if((keyboard_check(ord("X")) or global.swaptimer = 120) && !backgroundCooldown && !playerDead)
+if((keyboard_check(ord("X")) or global.swaptimer = 120) && !backgroundCooldown && !playerDead/* || shouldSwitchBackground*/)
 {
+	//shouldSwitchBackground = false;
+	//global.
 	if(image_index == 0)
 	{
 		show_debug_message("Making it light");
@@ -44,6 +46,15 @@ if(inTransitionToDark && (image_index == 0 || image_index > 7))
 	image_speed = 0;
 	inTransitionToDark = false;
 	isDark = true;
+}
+/*
+show_debug_message(global.bgColorTimer);
+global.bgColorTimer -= delta_time/1000000;
+
+if(global.bgColorTimer <= 0)
+{
+	shouldSwitchBackground = true;
+	global.bgColorTimer = 3;
 }
 
 

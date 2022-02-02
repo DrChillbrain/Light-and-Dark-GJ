@@ -18,3 +18,7 @@ audio_stop_sound(sfx_dead);
 audio_play_sound(bgm, 1, true);
 
 global.swaptimer = 0;
+
+global.bgColorTimer = 3;
+
+shouldSwitchBackground = false;
