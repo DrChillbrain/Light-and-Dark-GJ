@@ -25,13 +25,35 @@
     {"id":{"name":"retry_obj","path":"objects/retry_obj/retry_obj.yy",},"order":3,},
     {"id":{"name":"spr_terrain","path":"sprites/spr_terrain/spr_terrain.yy",},"order":6,},
     {"id":{"name":"Menu_rm","path":"rooms/Menu_rm/Menu_rm.yy",},"order":1,},
+<<<<<<< Updated upstream
     {"id":{"name":"Level2_rm","path":"rooms/Level2_rm/Level2_rm.yy",},"order":2,},
     {"id":{"name":"spr_lightPlatform","path":"sprites/spr_lightPlatform/spr_lightPlatform.yy",},"order":5,},
+=======
+    {"id":{"name":"Pixilart_Sprite_Sheet_11413","path":"sprites/Pixilart_Sprite_Sheet_11413/Pixilart_Sprite_Sheet_11413.yy",},"order":9,},
+    {"id":{"name":"title_obj","path":"objects/title_obj/title_obj.yy",},"order":6,},
+    {"id":{"name":"level2_obj","path":"objects/level2_obj/level2_obj.yy",},"order":9,},
+    {"id":{"name":"Level1_rm","path":"rooms/Level1_rm/Level1_rm.yy",},"order":2,},
+    {"id":{"name":"spr_lightPlatform","path":"sprites/spr_lightPlatform/spr_lightPlatform.yy",},"order":4,},
+    {"id":{"name":"obj_swaptimer","path":"objects/obj_swaptimer/obj_swaptimer.yy",},"order":16,},
+    {"id":{"name":"enemy_terrain","path":"objects/enemy_terrain/enemy_terrain.yy",},"order":11,},
+    {"id":{"name":"Level6_rm","path":"rooms/Level6_rm/Level6_rm.yy",},"order":15,},
+    {"id":{"name":"moving_enemy_obj_vertical_reverse","path":"objects/moving_enemy_obj_vertical_reverse/moving_enemy_obj_vertical_reverse.yy",},"order":26,},
+    {"id":{"name":"level4contr_obj","path":"objects/level4contr_obj/level4contr_obj.yy",},"order":21,},
+    {"id":{"name":"title_spr","path":"sprites/title_spr/title_spr.yy",},"order":11,},
+    {"id":{"name":"wall_spr","path":"sprites/wall_spr/wall_spr.yy",},"order":17,},
+    {"id":{"name":"obj_wallTerrain","path":"objects/obj_wallTerrain/obj_wallTerrain.yy",},"order":14,},
+    {"id":{"name":"spr_particle","path":"sprites/spr_particle/spr_particle.yy",},"order":12,},
+    {"id":{"name":"level_spr","path":"sprites/level_spr/level_spr.yy",},"order":4,},
+>>>>>>> Stashed changes
     {"id":{"name":"obj_Background","path":"objects/obj_Background/obj_Background.yy",},"order":2,},
     {"id":{"name":"Pixilart_Sprite_Sheet_1131415","path":"sprites/Pixilart_Sprite_Sheet_1131415/Pixilart_Sprite_Sheet_1131415.yy",},"order":15,},
     {"id":{"name":"Pixilart_Sprite_Sheet_1","path":"sprites/Pixilart_Sprite_Sheet_1/Pixilart_Sprite_Sheet_1.yy",},"order":12,},
     {"id":{"name":"quit_obj","path":"objects/quit_obj/quit_obj.yy",},"order":1,},
+<<<<<<< Updated upstream
     {"id":{"name":"Pixilart_Sprite_Sheet_1131617","path":"sprites/Pixilart_Sprite_Sheet_1131617/Pixilart_Sprite_Sheet_1131617.yy",},"order":17,},
+=======
+    {"id":{"name":"moving_enemy_obj_vertical","path":"objects/moving_enemy_obj_vertical/moving_enemy_obj_vertical.yy",},"order":25,},
+>>>>>>> Stashed changes
     {"id":{"name":"door_obj","path":"objects/door_obj/door_obj.yy",},"order":6,},
     {"id":{"name":"sfx_swap","path":"sounds/sfx_swap/sfx_swap.yy",},"order":2,},
     {"id":{"name":"sfx_dead","path":"sounds/sfx_dead/sfx_dead.yy",},"order":3,},
@@ -55,9 +77,30 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Level10_rm","path":"rooms/Level10_rm/Level10_rm.yy",},},
     {"roomId":{"name":"Menu_rm","path":"rooms/Menu_rm/Menu_rm.yy",},},
     {"roomId":{"name":"Level1_rm","path":"rooms/Level1_rm/Level1_rm.yy",},},
     {"roomId":{"name":"Level2_rm","path":"rooms/Level2_rm/Level2_rm.yy",},},
+<<<<<<< Updated upstream
+=======
+    {"roomId":{"name":"Level3_rm","path":"rooms/Level3_rm/Level3_rm.yy",},},
+    {"roomId":{"name":"Level4_rm","path":"rooms/Level4_rm/Level4_rm.yy",},},
+    {"roomId":{"name":"Level5_rm","path":"rooms/Level5_rm/Level5_rm.yy",},},
+    {"roomId":{"name":"Level6_rm","path":"rooms/Level6_rm/Level6_rm.yy",},},
+    {"roomId":{"name":"Level7_rm","path":"rooms/Level7_rm/Level7_rm.yy",},},
+    {"roomId":{"name":"Level8_rm","path":"rooms/Level8_rm/Level8_rm.yy",},},
+    {"roomId":{"name":"Level9_rm","path":"rooms/Level9_rm/Level9_rm.yy",},},
+    {"roomId":{"name":"Level13_rm","path":"rooms/Level13_rm/Level13_rm.yy",},},
+    {"roomId":{"name":"Level11_rm","path":"rooms/Level11_rm/Level11_rm.yy",},},
+    {"roomId":{"name":"Level12_rm","path":"rooms/Level12_rm/Level12_rm.yy",},},
+    {"roomId":{"name":"Level14_rm","path":"rooms/Level14_rm/Level14_rm.yy",},},
+    {"roomId":{"name":"Level16_rm","path":"rooms/Level16_rm/Level16_rm.yy",},},
+    {"roomId":{"name":"Level15_rm","path":"rooms/Level15_rm/Level15_rm.yy",},},
+    {"roomId":{"name":"Level17_rm","path":"rooms/Level17_rm/Level17_rm.yy",},},
+    {"roomId":{"name":"Level18_rm","path":"rooms/Level18_rm/Level18_rm.yy",},},
+    {"roomId":{"name":"Level19_rm","path":"rooms/Level19_rm/Level19_rm.yy",},},
+    {"roomId":{"name":"End_rm","path":"rooms/End_rm/End_rm.yy",},},
+>>>>>>> Stashed changes
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
