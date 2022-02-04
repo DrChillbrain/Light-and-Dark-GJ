@@ -2,51 +2,10 @@
 // You can write your code in this editor
 
 //Change background
-if(keyboard_check(ord("T")) && !backgroundCooldown)
+if((keyboard_check(ord("X")) or global.swaptimer = 120) && !backgroundCooldown && !playerDead/* || shouldSwitchBackground*/)
 {
-	/*
-	//If is dark, make it light
-	if(image_index == 0)
-	{
-		image_index = 1;
-		isDark = false;
-	}
-	//if is light, make it dark
-	else
-	{
-		image_index = 0;
-		isDark = true;
-	}
-	
-	backgroundCooldown = true;
-	alarm_set(0, 120);
-	*/
-	
-	/*
-	if(image_index == 0)
-	{
-		//make it light
-		while(image_index < image_number - 1)
-		{
-			image_index++;
-		}
-		
-		isDark = false;
-	}
-	else
-	{
-		
-		//make it dark
-		while(image_index > 0)
-		{
-			image_index--;
-		}
-		isDark = true;
-	}
-	backgroundCooldown = true;
-	alarm_set(0, 120);
-	*/
-	
+	//shouldSwitchBackground = false;
+	//global.
 	if(image_index == 0)
 	{
 		show_debug_message("Making it light");
@@ -66,7 +25,7 @@ if(keyboard_check(ord("T")) && !backgroundCooldown)
 		audio_play_sound(sfx_swap, 1, false);
 	}
 	backgroundCooldown = true;
-	alarm_set(0, 60);
+	alarm_set(0, 40);
 }
 
 if(inTransitionToLight && image_index >= 6)
@@ -87,6 +46,15 @@ if(inTransitionToDark && (image_index == 0 || image_index > 7))
 	image_speed = 0;
 	inTransitionToDark = false;
 	isDark = true;
+}
+/*
+show_debug_message(global.bgColorTimer);
+global.bgColorTimer -= delta_time/1000000;
+
+if(global.bgColorTimer <= 0)
+{
+	shouldSwitchBackground = true;
+	global.bgColorTimer = 3;
 }
 
 

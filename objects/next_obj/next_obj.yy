@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "start_spr",
-    "path": "sprites/start_spr/start_spr.yy",
+    "name": "level_spr",
+    "path": "sprites/level_spr/level_spr.yy",
   },
   "solid": false,
   "visible": true,
