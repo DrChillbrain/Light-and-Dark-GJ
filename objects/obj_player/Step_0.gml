@@ -58,3 +58,8 @@ if (place_meeting(x,y+vsp,obj_terrain))
     vsp = 0;
 }
 y = y + vsp;
+
+if (!place_meeting(x,y,obj_elevator_1))
+{
+    vspeed = 0;
+}
