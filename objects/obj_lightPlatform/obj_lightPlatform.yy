@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Pixilart_Sprite_Sheet_114",
-    "path": "sprites/Pixilart_Sprite_Sheet_114/Pixilart_Sprite_Sheet_114.yy",
+    "name": "Pixilart_Sprite_Sheet_1131617",
+    "path": "sprites/Pixilart_Sprite_Sheet_1131617/Pixilart_Sprite_Sheet_1131617.yy",
   },
   "solid": false,
   "visible": true,

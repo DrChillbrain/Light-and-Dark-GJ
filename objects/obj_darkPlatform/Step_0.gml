@@ -24,12 +24,12 @@ if(isDark && !terrainDeleted)
 	terrainDeleted = true;
 }
 
+//Change to more detailed sprite when visible, and single color sprite when invisible
 if(isDark)
 {
 	image_index = 0;
 }
-
-if(!isDark || obj_Background.inTransitionToLight)
+else
 {
 	image_index = 1;
 }
